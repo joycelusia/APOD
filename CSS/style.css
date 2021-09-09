@@ -10,6 +10,9 @@ body{
     text-shadow: black 0.1em 0.1em 0.2em
 
 }
+.title{
+    color: yellow;
+}
 main{
     display: flex;
     flex-direction: column;
@@ -29,6 +32,8 @@ main{
 .textNasa{
     font-size: 20px;
     text-align: justify;
+    margin: 5%;
+    
 }
 
 .dateContainer{
@@ -37,28 +42,33 @@ main{
 }
 
 #date{
-    width: 200px;
-    height: 50px;
-    font-size: 18px;
+    width: 220px;
+    height: 70px;
+    font-size: 23px;
     text-align: center;
     color: whitesmoke;
     border-radius: 40px;
     background: transparent;
     font-family: 'Eczar', serif;
+    text-shadow: black 0.1em 0.1em 0.2em
+
    
 }
 
 .button{
     font-family: 'Eczar', serif;
+    font-size: 21px;
     border-radius: 20px;
+    
 }
 /*text*/
 
 
 .footer{
+    margin-top: 5%;
     text-align: center;
-    position: absolute;
-    bottom:0;
+    position: relative;
+    bottom:0%;
     width: 100%;
   }
 
@@ -67,10 +77,10 @@ a{
     color: white;
 }
 
-@media (max-width:500px) {
+
+@media (max-width: 600px) {
     
-    footer{
-        position: initial;
+    .footer{
+        position: relative;
     }
 }
-

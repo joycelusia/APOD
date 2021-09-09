@@ -1,9 +1,9 @@
-*, *::after, *::before{
-    margin:0;
-
-}
+*, * ::after, * ::before { margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
 body{
-    font-family: 'Eczar', serif;
+    font-family: 'PT Sans Narrow', sans-serif;   
     color: white;
     background-image: url(../Assets/background.jpg);
     background-size: cover;
@@ -12,6 +12,10 @@ body{
 }
 .title{
     color: yellow;
+    text-align: center;
+    justify-content: center;
+    margin: 10%;
+
 }
 main{
     display: flex;
@@ -23,14 +27,14 @@ main{
     
 }
 
-.title{
-    font-family: 'Eczar', serif;
-    font-size: 20px;
+.titleNasa{
+    font-size: 31px;
     justify-content:left;
+    margin: 3%;
 }
 
 .textNasa{
-    font-size: 20px;
+    font-size: 25px;
     text-align: justify;
     margin: 5%;
     
@@ -49,27 +53,26 @@ main{
     color: whitesmoke;
     border-radius: 40px;
     background: transparent;
-    font-family: 'Eczar', serif;
-    text-shadow: black 0.1em 0.1em 0.2em
+    text-shadow: black 0.1em 0.1em 0.2em;
+    
 
    
 }
 
 .button{
-    font-family: 'Eczar', serif;
     font-size: 21px;
     border-radius: 20px;
+    background-color: rgba(255, 255, 0, 0.315);
     
 }
 /*text*/
 
 
 .footer{
-    margin-top: 5%;
     text-align: center;
-    position: relative;
-    bottom:0%;
+    bottom: 0;
     width: 100%;
+    margin-top: 100px;
   }
 
 a{
@@ -78,9 +81,4 @@ a{
 }
 
 
-@media (max-width: 600px) {
-    
-    .footer{
-        position: relative;
-    }
-}
+

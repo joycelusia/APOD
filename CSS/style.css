@@ -29,8 +29,7 @@ main{
 
 .titleNasa{
     font-size: 31px;
-    justify-content:left;
-    margin: 3%;
+    text-align: center;
 }
 
 .textNasa{
